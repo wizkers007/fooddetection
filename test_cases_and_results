@@ -1,0 +1,6 @@
+Charger and 1 finger - Index finger not detected, hence contour area not calculated. Charger contour roughly detected. Mediapipe cannot detect index finger if the other fingers are not visible. 
+Charger and 2 fingers - Index finger still not detected, hence contour area not calculated. Largest contour not properly detected. Mediapipe cannot detect index finger if the other fingers are not visible.
+Charger and 5 fingers(lower hand invisible, only fingers visible)- Index finger still not detected, hence contour area not calculated. Largest contour not properly detected. Mediapipe cannot detect index finger if the entire hand is not visible.
+Lid(in place of dish) and entire hand visible - Index finger detected, contours properly identified and area calculated. 
+
+Hence, for accurate area calculation, food area should be larger than the hand(since largest contour area is calculated), background(or plate) should be idelaly white and food should be darker than the plate.
